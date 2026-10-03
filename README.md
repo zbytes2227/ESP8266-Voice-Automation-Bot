@@ -2,6 +2,9 @@
 
 An ESP8266-based voice automation controller using the Voice Recognition V3 module. Recognized voice records can trigger configurable HTTP `GET` or `POST` requests, while a 128×64 OLED provides status and a three-button interface provides local control.
 
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/6d3908ed-72a5-49b6-8a37-79e4790fd494" />
+
+
 ## Features
 
 - Voice Recognition V3 support for up to 80 records.
@@ -42,7 +45,7 @@ The VR3 serial interface uses `9600` baud. Buttons are active-low.
   - Adafruit GFX Library.
   - Adafruit SSD1306.
   - SoftwareSerial.
-  - `VoiceRecognitionV3-ESP8266` library.
+  - [`VoiceRecognitionV3-Elechouse-ESP-8266`](https://github.com/zbytes2227/VoiceRecognitionV3-Elechouse-ESP-8266).
 - SSD1306 OLED, Voice Recognition V3 module, and the hardware listed above.
 
 ## Installation
